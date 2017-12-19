@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://demoaut.katalon.com'</initValue>
+      <name>URL_Katalon_Demo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://spreadsheetpage.com/index.php/file/C35/P10/'</initValue>
+      <name>FileDownloadCheckingURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Html Files\\\\Dropdown.html'</initValue>
+      <name>Dropdown_Html_path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Html Files\\\\How to Handle Alerts.html'</initValue>
+      <name>Alerts_Html_path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Html Files\\\\How to Handle Alerts2.html'</initValue>
+      <name>Alert2_Html_Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Html Files\\\\How to Handle Frames.html'</initValue>
+      <name>Frames_Html_Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Html Files\\\\MultiSelection_dropDown.html'</initValue>
+      <name>MultiSelection_dropDown_Html_Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Html Files\\\\UploadFile.html'</initValue>
+      <name>UploadFile_Html_Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Html Files\\\\WebTable_Handling_Scenario1.html'</initValue>
+      <name>WebTable1_Html_Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Html Files\\\\WebTable_Handling_Scenario2.html'</initValue>
+      <name>WebTable2_Html_Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Image Files\\\\Desert.jpg'</initValue>
+      <name>Image_Upload_Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://the-internet.herokuapp.com/iframe'</initValue>
+      <name>URL_Iframe</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://the-internet.herokuapp.com/windows'</initValue>
+      <name>URL_WindowHandeling</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Test Data Files\\\\Excel Test Data.xlsx'</initValue>
+      <name>Excel_TestData_Path</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'\\\\Test Data Files\\\\CSV Test Data File.csv'</initValue>
+      <name>CSV_TestData_Path</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,272 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Regression Test Suite 1,Chrome 60.0.3112.90,,2017-08-16 18:30:06,2017-08-16 18:34:19,4m - 12.618s,ERROR
+,,,,,,
+Test Cases/Custom Keyword Dropdown Values Verification/DropDown_Values_Alphabetical Order,Chrome 60.0.3112.90,,2017-08-16 18:30:08,2017-08-16 18:30:20,11.850s,ERROR
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + MultiSelection_dropDown_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:30:13,2017-08-16 18:30:13,0.035s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:30:13,2017-08-16 18:30:19,6.670s,PASSED
+reusableComponents.VerifyDrodownValues_AlphabeticalOrder.verifyOptionsInDropdownInAphabeticalOrder,Chrome 60.0.3112.90,Verfying the Options in are in Alphabetical order in a dropdown,2017-08-16 18:30:19,2017-08-16 18:30:20,1.033s,FAILED
+,,,,,,
+Test Cases/Custom Keyword Dropdown Values Verification/VerifyExpectedAndActualValuesInADropdown,Chrome 60.0.3112.90,,2017-08-16 18:30:20,2017-08-16 18:30:26,5.452s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + MultiSelection_dropDown_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:30:21,2017-08-16 18:30:21,0.000s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:30:21,2017-08-16 18:30:25,4.153s,PASSED
+reusableComponents.VerifyExpectedAndActualOptionsInDropdown.VerifyExpectedAndActual,Chrome 60.0.3112.90,Verfying the Options in a  dropdown,2017-08-16 18:30:25,2017-08-16 18:30:26,0.401s,PASSED
+,,,,,,
+Test Cases/Custom Keyword Random Data/Random Data,Chrome 60.0.3112.90,,2017-08-16 18:30:26,2017-08-16 18:30:36,10.511s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:30:26,2017-08-16 18:30:32,6.060s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:30:32,2017-08-16 18:30:33,0.994s,PASSED
+Statement - RandomEmail = CustomKeywords.randomData.TestDataGenerator.getRandom_Mailiantor_Email(),Chrome 60.0.3112.90,Calling a custom keyword and Storing random Email in a variable,2017-08-16 18:30:33,2017-08-16 18:30:33,0.065s,PASSED
+Statement - RandomPassword = CustomKeywords.randomData.TestDataGenerator.getRandomCity(),Chrome 60.0.3112.90,Calling a custom keyword and Storing random Email in a variable,2017-08-16 18:30:33,2017-08-16 18:30:33,0.020s,PASSED
+click,Chrome 60.0.3112.90,Click on link Make Appointment,2017-08-16 18:30:33,2017-08-16 18:30:34,0.911s,PASSED
+setText,Chrome 60.0.3112.90,,2017-08-16 18:30:34,2017-08-16 18:30:35,0.646s,PASSED
+setText,Chrome 60.0.3112.90,,2017-08-16 18:30:35,2017-08-16 18:30:35,0.312s,PASSED
+click,Chrome 60.0.3112.90,,2017-08-16 18:30:35,2017-08-16 18:30:36,0.869s,PASSED
+waitForPageLoad,Chrome 60.0.3112.90,,2017-08-16 18:30:36,2017-08-16 18:30:36,0.100s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/DeselectAll_Option,Chrome 60.0.3112.90,,2017-08-16 18:30:36,2017-08-16 18:30:44,8.042s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + MultiSelection_dropDown_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:30:37,2017-08-16 18:30:37,0.003s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch Browser,2017-08-16 18:30:37,2017-08-16 18:30:40,3.738s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:30:40,2017-08-16 18:30:41,1.080s,PASSED
+selectAllOption,Chrome 60.0.3112.90,Select all the Options,2017-08-16 18:30:41,2017-08-16 18:30:43,1.530s,PASSED
+deselectAllOption,Chrome 60.0.3112.90,Deselect all the options,2017-08-16 18:30:43,2017-08-16 18:30:44,1.168s,PASSED
+Statement - NoOfSelectedOptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfSelectedOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(DropDown/comboBox_Role)),Chrome 60.0.3112.90,Taking the count of number of Selected Options and Storing it in a variable,2017-08-16 18:30:44,2017-08-16 18:30:44,0.209s,PASSED
+verifyEqual,Chrome 60.0.3112.90,After Deselect verifying the Number of Selected options with Actual result to Expected,2017-08-16 18:30:44,2017-08-16 18:30:44,0.081s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/DeSelectByindex,Chrome 60.0.3112.90,,2017-08-16 18:30:44,2017-08-16 18:30:50,5.384s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + MultiSelection_dropDown_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:30:45,2017-08-16 18:30:45,0.013s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:30:45,2017-08-16 18:30:48,3.509s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:30:48,2017-08-16 18:30:49,1.149s,PASSED
+selectOptionByLabel,Chrome 60.0.3112.90,Selecting the option with Label HR,2017-08-16 18:30:49,2017-08-16 18:30:50,0.308s,PASSED
+deselectOptionByIndex,Chrome 60.0.3112.90,DeSelecting the option with index 1 i.e HR,2017-08-16 18:30:50,2017-08-16 18:30:50,0.286s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/DeSelectByLabel,Chrome 60.0.3112.90,,2017-08-16 18:30:50,2017-08-16 18:30:56,5.947s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + MultiSelection_dropDown_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:30:50,2017-08-16 18:30:50,0.003s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:30:50,2017-08-16 18:30:54,4.020s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:30:54,2017-08-16 18:30:55,1.234s,PASSED
+selectOptionByValue,Chrome 60.0.3112.90,Selecting the option with Value,2017-08-16 18:30:55,2017-08-16 18:30:56,0.347s,PASSED
+deselectOptionByValue,Chrome 60.0.3112.90,DeSelecting the option with Value,2017-08-16 18:30:56,2017-08-16 18:30:56,0.175s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/DeSelectByValue,Chrome 60.0.3112.90,,2017-08-16 18:30:56,2017-08-16 18:31:02,6.160s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + MultiSelection_dropDown_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:30:56,2017-08-16 18:30:56,0.003s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:30:56,2017-08-16 18:31:00,4.124s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:31:00,2017-08-16 18:31:02,1.268s,PASSED
+selectOptionByIndex,Chrome 60.0.3112.90,Selecting the option with Index,2017-08-16 18:31:02,2017-08-16 18:31:02,0.440s,PASSED
+deselectOptionByValue,Chrome 60.0.3112.90,DeSelecting the option with Value,2017-08-16 18:31:02,2017-08-16 18:31:02,0.145s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/Get_Number_Of_Selected_Option,Chrome 60.0.3112.90,,2017-08-16 18:31:02,2017-08-16 18:31:10,7.594s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + MultiSelection_dropDown_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:31:02,2017-08-16 18:31:02,0.000s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:31:02,2017-08-16 18:31:07,4.303s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:31:07,2017-08-16 18:31:08,1.281s,PASSED
+selectAllOption,Chrome 60.0.3112.90,Select All values available in the dropdown by Select All option,2017-08-16 18:31:08,2017-08-16 18:31:10,1.714s,PASSED
+Statement - SelectedItems = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(DropDown/comboBox_Role)),Chrome 60.0.3112.90,Capturing the Number of selected Values and storing it in a variable,2017-08-16 18:31:10,2017-08-16 18:31:10,0.113s,PASSED
+"Statement - println(""No of Selected Roles are "" + SelectedItems)",Chrome 60.0.3112.90,,2017-08-16 18:31:10,2017-08-16 18:31:10,0.020s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Verifying the number of Options selected with Expected result,2017-08-16 18:31:10,2017-08-16 18:31:10,0.003s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/Get_Number_Of_Total_Option,Chrome 60.0.3112.90,,2017-08-16 18:31:10,2017-08-16 18:31:16,6.315s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + MultiSelection_dropDown_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:31:10,2017-08-16 18:31:10,0.002s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and naviagte to URL,2017-08-16 18:31:10,2017-08-16 18:31:15,4.593s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:31:15,2017-08-16 18:31:16,1.371s,PASSED
+Statement - TotalOptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfTotalOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(DropDown/comboBox_Role)),Chrome 60.0.3112.90,Capturing the Toal Number of  Values in the dropdown and storing it in a variable,2017-08-16 18:31:16,2017-08-16 18:31:16,0.214s,PASSED
+"Statement - println(""No of Roles are :"" + TotalOptions)",Chrome 60.0.3112.90,,2017-08-16 18:31:16,2017-08-16 18:31:16,0.000s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Verifying the number of Options in the dropdown with Expected result,2017-08-16 18:31:16,2017-08-16 18:31:16,0.000s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/SelectAll_Option,Chrome 60.0.3112.90,,2017-08-16 18:31:16,2017-08-16 18:31:24,7.596s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + MultiSelection_dropDown_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:31:17,2017-08-16 18:31:17,0.003s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:31:17,2017-08-16 18:31:21,4.441s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:31:21,2017-08-16 18:31:22,1.287s,PASSED
+selectAllOption,Chrome 60.0.3112.90,Selecting all Options,2017-08-16 18:31:22,2017-08-16 18:31:24,1.276s,PASSED
+Statement - SelectedOptions = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getNumberOfSelectedOption(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(DropDown/comboBox_Role)),Chrome 60.0.3112.90,Capturing the Number of selected Values and storing it in a variable,2017-08-16 18:31:24,2017-08-16 18:31:24,0.237s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Verifying the number of selected options with Expected result,2017-08-16 18:31:24,2017-08-16 18:31:24,0.000s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/SelectByindex,Chrome 60.0.3112.90,,2017-08-16 18:31:24,2017-08-16 18:31:30,6.511s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Dropdown_Html_path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:31:24,2017-08-16 18:31:24,0.001s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser,2017-08-16 18:31:24,2017-08-16 18:31:28,4.171s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the Window,2017-08-16 18:31:28,2017-08-16 18:31:29,1.264s,PASSED
+selectOptionByIndex,Chrome 60.0.3112.90,Select the dropdown value by Select option By index Method,2017-08-16 18:31:29,2017-08-16 18:31:30,0.630s,PASSED
+verifyOptionSelectedByIndex,Chrome 60.0.3112.90,Verifying the Option is Selected by Index option,2017-08-16 18:31:30,2017-08-16 18:31:30,0.340s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/SelectByLabel,Chrome 60.0.3112.90,,2017-08-16 18:31:30,2017-08-16 18:31:37,6.027s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Dropdown_Html_path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:31:31,2017-08-16 18:31:31,0.000s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser,2017-08-16 18:31:31,2017-08-16 18:31:34,3.711s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the Window,2017-08-16 18:31:34,2017-08-16 18:31:35,1.128s,PASSED
+selectOptionByLabel,Chrome 60.0.3112.90,Select the dropdown value by Select option By Label Method,2017-08-16 18:31:35,2017-08-16 18:31:36,0.253s,PASSED
+verifyOptionSelectedByLabel,Chrome 60.0.3112.90,Verifying the Option is Selected by Label option,2017-08-16 18:31:36,2017-08-16 18:31:37,0.779s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/SelectByValue,Chrome 60.0.3112.90,,2017-08-16 18:31:37,2017-08-16 18:31:43,6.226s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Dropdown_Html_path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:31:37,2017-08-16 18:31:37,0.000s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser,2017-08-16 18:31:37,2017-08-16 18:31:41,3.641s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:31:41,2017-08-16 18:31:42,1.014s,PASSED
+selectOptionByValue,Chrome 60.0.3112.90,Selecting the month from Select By value method,2017-08-16 18:31:42,2017-08-16 18:31:42,0.266s,PASSED
+verifyOptionSelectedByValue,Chrome 60.0.3112.90,Verifying the Option is Selected by Value option,2017-08-16 18:31:42,2017-08-16 18:31:43,0.428s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/Verify_Option_Not_Present_By_Label,Chrome 60.0.3112.90,,2017-08-16 18:31:43,2017-08-16 18:31:48,5.274s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Dropdown_Html_path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:31:43,2017-08-16 18:31:43,0.000s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:31:43,2017-08-16 18:31:47,3.406s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:31:47,2017-08-16 18:31:48,1.027s,PASSED
+verifyOptionNotPresentByLabel,Chrome 60.0.3112.90,Verifying the option is not Present,2017-08-16 18:31:48,2017-08-16 18:31:48,0.494s,PASSED
+,,,,,,
+Test Cases/DropDown_Handling/Verify_Option_Not_Present_By_Value,Chrome 60.0.3112.90,,2017-08-16 18:31:48,2017-08-16 18:31:53,4.807s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Dropdown_Html_path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:31:49,2017-08-16 18:31:49,0.000s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser,2017-08-16 18:31:49,2017-08-16 18:31:52,2.952s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:31:52,2017-08-16 18:31:53,0.928s,PASSED
+verifyOptionNotPresentByValue,Chrome 60.0.3112.90,Verifying the option is not present in the dropdown,2017-08-16 18:31:53,2017-08-16 18:31:53,0.312s,PASSED
+,,,,,,
+Test Cases/How to Handle Alerts/Accepting a alert,Chrome 60.0.3112.90,,2017-08-16 18:31:53,2017-08-16 18:31:58,4.992s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Alerts_Html_path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:31:53,2017-08-16 18:31:53,0.000s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:31:53,2017-08-16 18:31:57,3.285s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window of the browser,2017-08-16 18:31:57,2017-08-16 18:31:58,1.034s,PASSED
+click,Chrome 60.0.3112.90,Clicking on  button,2017-08-16 18:31:58,2017-08-16 18:31:58,0.190s,PASSED
+acceptAlert,Chrome 60.0.3112.90,Accepting the Alert ,2017-08-16 18:31:58,2017-08-16 18:31:58,0.127s,PASSED
+,,,,,,
+Test Cases/How to Handle Alerts/Dismissing a alert,Chrome 60.0.3112.90,,2017-08-16 18:31:58,2017-08-16 18:32:03,4.829s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Alert2_Html_Path,Chrome 60.0.3112.90,,2017-08-16 18:31:58,2017-08-16 18:31:58,0.003s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser,2017-08-16 18:31:58,2017-08-16 18:32:02,3.481s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window of the browser,2017-08-16 18:32:02,2017-08-16 18:32:03,0.997s,PASSED
+click,Chrome 60.0.3112.90,Clicking on  button,2017-08-16 18:32:03,2017-08-16 18:32:03,0.211s,PASSED
+dismissAlert,Chrome 60.0.3112.90,Dismiss the Alert ,2017-08-16 18:32:03,2017-08-16 18:32:03,0.037s,PASSED
+,,,,,,
+Test Cases/How to Handle Alerts/Entering a text in alert text box,Chrome 60.0.3112.90,,2017-08-16 18:32:03,2017-08-16 18:32:09,5.769s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Alert2_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:32:03,2017-08-16 18:32:03,0.001s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser,2017-08-16 18:32:03,2017-08-16 18:32:07,3.595s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window of the browser,2017-08-16 18:32:07,2017-08-16 18:32:08,1.128s,PASSED
+click,Chrome 60.0.3112.90,Clicking on  button,2017-08-16 18:32:08,2017-08-16 18:32:08,0.184s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 60.0.3112.90,Using the current driver Instance,2017-08-16 18:32:08,2017-08-16 18:32:08,0.028s,PASSED
+"Statement - driver.switchTo().alert().sendKeys(""Testing"")",Chrome 60.0.3112.90,Passing the text in the text box in the Alert\r\n,2017-08-16 18:32:08,2017-08-16 18:32:09,0.501s,PASSED
+dismissAlert,Chrome 60.0.3112.90,Dismiss the Alert ,2017-08-16 18:32:09,2017-08-16 18:32:09,0.022s,PASSED
+,,,,,,
+Test Cases/How to Handle Alerts/Getting a text from alert,Chrome 60.0.3112.90,,2017-08-16 18:32:09,2017-08-16 18:32:14,5.232s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Alert2_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:32:09,2017-08-16 18:32:09,0.001s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser,2017-08-16 18:32:09,2017-08-16 18:32:12,3.527s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window of the browser,2017-08-16 18:32:12,2017-08-16 18:32:14,1.232s,PASSED
+click,Chrome 60.0.3112.90,Clicking on  button,2017-08-16 18:32:14,2017-08-16 18:32:14,0.235s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 60.0.3112.90,,2017-08-16 18:32:14,2017-08-16 18:32:14,0.001s,PASSED
+Statement - AlertText = driver.switchTo().alert().getText(),Chrome 60.0.3112.90,Getting the text from the alert and storing it in Variable ,2017-08-16 18:32:14,2017-08-16 18:32:14,0.015s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Verifying the Actual and Expected text from Alert\r\n,2017-08-16 18:32:14,2017-08-16 18:32:14,0.035s,PASSED
+,,,,,,
+Test Cases/How to Handle File Uploads/Upload file by Sendkeys,Chrome 60.0.3112.90,,2017-08-16 18:32:14,2017-08-16 18:32:20,6.251s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + UploadFile_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:32:15,2017-08-16 18:32:15,0.002s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser,2017-08-16 18:32:15,2017-08-16 18:32:19,4.115s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window\r\n,2017-08-16 18:32:19,2017-08-16 18:32:20,1.269s,PASSED
+Statement - imgDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Image_Upload_Path,Chrome 60.0.3112.90,,2017-08-16 18:32:20,2017-08-16 18:32:20,0.003s,PASSED
+sendKeys,Chrome 60.0.3112.90,Passing the URL of image location,2017-08-16 18:32:20,2017-08-16 18:32:20,0.190s,PASSED
+"Statement - FakePath = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Upload File object/Upload File), ""value"")",Chrome 60.0.3112.90,Capturing the Attribute value and Storing it in a Variable,2017-08-16 18:32:20,2017-08-16 18:32:20,0.129s,PASSED
+verifyMatch,Chrome 60.0.3112.90,Verifying the Actual path and Expected path of file,2017-08-16 18:32:20,2017-08-16 18:32:20,0.000s,PASSED
+,,,,,,
+Test Cases/How to Handle File Uploads/Upload file,Chrome 60.0.3112.90,,2017-08-16 18:32:20,2017-08-16 18:32:21,0.271s,ERROR
+,,,,,,
+Test Cases/How to Handle File Uploads/Upload File1,Chrome 60.0.3112.90,,2017-08-16 18:32:21,2017-08-16 18:32:27,6.650s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + UploadFile_Html_Path,Chrome 60.0.3112.90,,2017-08-16 18:32:21,2017-08-16 18:32:21,0.000s,PASSED
+Statement - imgDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + Image_Upload_Path,Chrome 60.0.3112.90,,2017-08-16 18:32:21,2017-08-16 18:32:21,0.000s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser,2017-08-16 18:32:21,2017-08-16 18:32:26,4.556s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window\r\n,2017-08-16 18:32:26,2017-08-16 18:32:27,1.271s,PASSED
+uploadFile,Chrome 60.0.3112.90,Passing the path of the file,2017-08-16 18:32:27,2017-08-16 18:32:27,0.175s,PASSED
+"Statement - FakePath = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Upload File object/Upload File), ""value"")",Chrome 60.0.3112.90,Capturing the file name after upload and storing it in a variable,2017-08-16 18:32:27,2017-08-16 18:32:27,0.091s,PASSED
+verifyMatch,Chrome 60.0.3112.90,Verifying the Actual path and Expected path of file,2017-08-16 18:32:27,2017-08-16 18:32:27,0.041s,PASSED
+,,,,,,
+Test Cases/How to Handle File Uploads/Verify File Downloaded,Chrome 60.0.3112.90,,2017-08-16 18:32:27,2017-08-16 18:32:54,26.517s,FAILED
+"Statement - downloadPath = ""D:\FileDownloadChecking""",Chrome 60.0.3112.90,Define Custom Path where file needs to be downloaded,2017-08-16 18:32:28,2017-08-16 18:32:28,0.003s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:32:28,2017-08-16 18:32:40,12.625s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 60.0.3112.90,,2017-08-16 18:32:40,2017-08-16 18:32:40,0.001s,PASSED
+"Statement - driver.findElement(org.openqa.selenium.By.linkText(""smilechart.xls"")).click()",Chrome 60.0.3112.90,Clicking on a Link text to download a file,2017-08-16 18:32:40,2017-08-16 18:32:41,0.603s,PASSED
+delay,Chrome 60.0.3112.90,,2017-08-16 18:32:41,2017-08-16 18:32:54,12.873s,PASSED
+"Statement - org.testng.Assert.assertTrue(isFileDownloaded(downloadPath, ""smilechart.xls""), ""Failed to download Expected document"")",Chrome 60.0.3112.90,Verifying the file is download in the Set Path,2017-08-16 18:32:54,2017-08-16 18:32:54,0.001s,PASSED
+Statement - flag = false,Chrome 60.0.3112.90,,2017-08-16 18:32:54,2017-08-16 18:32:54,0.008s,PASSED
+Statement - dir = new java.io.File(downloadPath),Chrome 60.0.3112.90,,2017-08-16 18:32:54,2017-08-16 18:32:54,0.007s,PASSED
+Statement - dir_contents = dir.listFiles(),Chrome 60.0.3112.90,,2017-08-16 18:32:54,2017-08-16 18:32:54,0.001s,PASSED
+"Statement - println(""Total Files Available in the folder are :  "" + length)",Chrome 60.0.3112.90,,2017-08-16 18:32:54,2017-08-16 18:32:54,0.002s,PASSED
+"Statement - For ([i = 0, i < length, (i++)])",Chrome 60.0.3112.90,,2017-08-16 18:32:54,2017-08-16 18:32:54,0.000s,PASSED
+Statement - return flag,Chrome 60.0.3112.90,,2017-08-16 18:32:54,2017-08-16 18:32:54,0.007s,PASSED
+,,,,,,
+Test Cases/How to Handle Frames/Switch To Default Content,Chrome 60.0.3112.90,,2017-08-16 18:32:54,2017-08-16 18:33:08,14.272s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launching and Navigating to URL\r\n,2017-08-16 18:32:54,2017-08-16 18:33:06,11.913s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window\r\n,2017-08-16 18:33:06,2017-08-16 18:33:08,1.531s,PASSED
+switchToFrame,Chrome 60.0.3112.90,Switching to text area which is situated in Iframe,2017-08-16 18:33:08,2017-08-16 18:33:08,0.155s,PASSED
+Statement - Text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frames/TextArea)),Chrome 60.0.3112.90,Fecthing the text from Text area and storing it in a variable,2017-08-16 18:33:08,2017-08-16 18:33:08,0.136s,PASSED
+switchToDefaultContent,Chrome 60.0.3112.90,Switching back to the main window or parent window frame,2017-08-16 18:33:08,2017-08-16 18:33:08,0.037s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Verifying the Actual text with Expected text from Text Area.,2017-08-16 18:33:08,2017-08-16 18:33:08,0.005s,PASSED
+Statement - Heading = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Frames/Frame Heading)),Chrome 60.0.3112.90,Getting the text of the web element and storing it in a variable,2017-08-16 18:33:08,2017-08-16 18:33:08,0.198s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Verifying the Actual text with Expected text from Text Area.,2017-08-16 18:33:08,2017-08-16 18:33:08,0.018s,PASSED
+,,,,,,
+Test Cases/How to Handle Frames/Switch To Frame,Chrome 60.0.3112.90,,2017-08-16 18:33:08,2017-08-16 18:33:09,0.249s,ERROR
+openBrowser,Chrome 60.0.3112.90,Launching and Navigating to URL\r\n,2017-08-16 18:33:09,2017-08-16 18:33:09,0.003s,PASSED
+,,,,,,
+Test Cases/How to Handle Windows/Switch To Window Index,Chrome 60.0.3112.90,,2017-08-16 18:33:09,2017-08-16 18:33:22,12.793s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser and navigate to website ,2017-08-16 18:33:10,2017-08-16 18:33:18,8.788s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:33:18,2017-08-16 18:33:20,1.411s,PASSED
+click,Chrome 60.0.3112.90,Click on Click Here link,2017-08-16 18:33:20,2017-08-16 18:33:20,0.280s,PASSED
+switchToWindowIndex,Chrome 60.0.3112.90,Switch to New window by Switch to Window index method,2017-08-16 18:33:20,2017-08-16 18:33:20,0.064s,PASSED
+Statement - Heading_NewWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Windows/Heading_New Window)),Chrome 60.0.3112.90,Capturing the Heading of the New Window text and Storing it in a variable,2017-08-16 18:33:20,2017-08-16 18:33:22,1.377s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Validating the heading so that it is naviagted to desired window by Switch To Window Index Method,2017-08-16 18:33:22,2017-08-16 18:33:22,0.000s,PASSED
+,,,,,,
+Test Cases/How to Handle Windows/Switch To Window Title,Chrome 60.0.3112.90,,2017-08-16 18:33:22,2017-08-16 18:33:32,10.825s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser and navigate to website ,2017-08-16 18:33:22,2017-08-16 18:33:30,7.706s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:33:30,2017-08-16 18:33:31,1.152s,PASSED
+click,Chrome 60.0.3112.90,Click on Click Here link,2017-08-16 18:33:31,2017-08-16 18:33:31,0.294s,PASSED
+switchToWindowTitle,Chrome 60.0.3112.90,Switch to New window by Switch to Window Title method,2017-08-16 18:33:31,2017-08-16 18:33:32,1.247s,PASSED
+Statement - Heading_NewWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Windows/Heading_New Window)),Chrome 60.0.3112.90,Capturing the Heading of the New Window text and Storing it in a variable,2017-08-16 18:33:32,2017-08-16 18:33:32,0.118s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Validating the heading so that it is naviagted to desired window by Switch To Window Title Method,2017-08-16 18:33:32,2017-08-16 18:33:32,0.000s,PASSED
+,,,,,,
+Test Cases/How to Handle Windows/Switch To Window Url,Chrome 60.0.3112.90,,2017-08-16 18:33:32,2017-08-16 18:33:42,9.487s,PASSED
+openBrowser,Chrome 60.0.3112.90,Open browser and navigate to website ,2017-08-16 18:33:33,2017-08-16 18:33:39,6.783s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:33:39,2017-08-16 18:33:41,1.190s,PASSED
+click,Chrome 60.0.3112.90,Click on Click Here link,2017-08-16 18:33:41,2017-08-16 18:33:41,0.204s,PASSED
+switchToWindowUrl,Chrome 60.0.3112.90,Switch to New window by Switch to Window URL method,2017-08-16 18:33:41,2017-08-16 18:33:42,1.022s,PASSED
+Statement - Heading_NewWindow = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Windows/Heading_New Window)),Chrome 60.0.3112.90,Capturing the Heading of the New Window text and Storing it in a variable,2017-08-16 18:33:42,2017-08-16 18:33:42,0.105s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Validating the heading so that it is naviagted to desired window by Switch To Window Url Method,2017-08-16 18:33:42,2017-08-16 18:33:42,0.012s,PASSED
+,,,,,,
+Test Cases/How to use Test Data/CSV file Test data reading,Chrome 60.0.3112.90,,2017-08-16 18:33:42,2017-08-16 18:33:51,8.497s,PASSED
+openBrowser,Chrome 60.0.3112.90,Lauching the browser and URL,2017-08-16 18:33:42,2017-08-16 18:33:48,5.607s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:33:48,2017-08-16 18:33:49,1.013s,PASSED
+waitForPageLoad,Chrome 60.0.3112.90,Waiting for page to be loaded,2017-08-16 18:33:49,2017-08-16 18:33:49,0.014s,PASSED
+click,Chrome 60.0.3112.90,Clicking on Make Appointment link,2017-08-16 18:33:49,2017-08-16 18:33:50,0.632s,PASSED
+click,Chrome 60.0.3112.90,Clicking on Login button,2017-08-16 18:33:50,2017-08-16 18:33:50,0.721s,PASSED
+waitForPageLoad,Chrome 60.0.3112.90,Make Appointment,2017-08-16 18:33:50,2017-08-16 18:33:50,0.015s,PASSED
+verifyElementVisible,Chrome 60.0.3112.90,Waiting for Make Appointment heading to be visible,2017-08-16 18:33:50,2017-08-16 18:33:50,0.091s,PASSED
+Statement - Heading = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(demoaut.katalon.com/heading_Make Appoitment)),Chrome 60.0.3112.90,Capturing the heading and storing it in a variable,2017-08-16 18:33:50,2017-08-16 18:33:50,0.072s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Verifying the Heading Make Appointment,2017-08-16 18:33:50,2017-08-16 18:33:50,0.043s,PASSED
+,,,,,,
+Test Cases/How to use Test Data/Excel file Test data reading,Chrome 60.0.3112.90,,2017-08-16 18:33:51,2017-08-16 18:33:59,8.907s,PASSED
+openBrowser,Chrome 60.0.3112.90,Lauching the browser and URL,2017-08-16 18:33:51,2017-08-16 18:33:56,4.943s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the Window,2017-08-16 18:33:56,2017-08-16 18:33:57,0.862s,PASSED
+waitForPageLoad,Chrome 60.0.3112.90,Waiting for page to be loaded,2017-08-16 18:33:57,2017-08-16 18:33:57,0.017s,PASSED
+click,Chrome 60.0.3112.90,Clicking on Make Appointment link,2017-08-16 18:33:57,2017-08-16 18:33:57,0.572s,PASSED
+click,Chrome 60.0.3112.90,Clicking on Login button,2017-08-16 18:33:57,2017-08-16 18:33:58,0.677s,PASSED
+waitForPageLoad,Chrome 60.0.3112.90,Waiting for page to be loaded,2017-08-16 18:33:58,2017-08-16 18:33:58,0.015s,PASSED
+verifyElementVisible,Chrome 60.0.3112.90,Waiting for Make Appointment heading to be visible,2017-08-16 18:33:58,2017-08-16 18:33:58,0.068s,PASSED
+Statement - Heading = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(demoaut.katalon.com/heading_Make Appoitment)),Chrome 60.0.3112.90,Capturing the heading and storing it in a variable,2017-08-16 18:33:58,2017-08-16 18:33:58,0.050s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Verifying the Heading Make Appointment,2017-08-16 18:33:58,2017-08-16 18:33:59,1.431s,PASSED
+,,,,,,
+Test Cases/How to use Test Data/Internal Test data reading,Chrome 60.0.3112.90,,2017-08-16 18:33:59,2017-08-16 18:34:07,7.482s,PASSED
+openBrowser,Chrome 60.0.3112.90,Lauching the browser and URL,2017-08-16 18:34:00,2017-08-16 18:34:04,4.791s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:34:04,2017-08-16 18:34:05,0.857s,PASSED
+waitForPageLoad,Chrome 60.0.3112.90,Waiting till page is loaded,2017-08-16 18:34:05,2017-08-16 18:34:05,0.013s,PASSED
+click,Chrome 60.0.3112.90,Clicking on Make Appointment link,2017-08-16 18:34:05,2017-08-16 18:34:06,0.584s,PASSED
+click,Chrome 60.0.3112.90,Clicking on Login button,2017-08-16 18:34:06,2017-08-16 18:34:07,0.729s,PASSED
+waitForPageLoad,Chrome 60.0.3112.90,Waiting till page is loaded,2017-08-16 18:34:07,2017-08-16 18:34:07,0.159s,PASSED
+verifyElementVisible,Chrome 60.0.3112.90,Verifying the Heading to be visbile,2017-08-16 18:34:07,2017-08-16 18:34:07,0.070s,PASSED
+Statement - Heading = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(demoaut.katalon.com/heading_Make Appoitment)),Chrome 60.0.3112.90,Capturing the heading and storing it in a variable,2017-08-16 18:34:07,2017-08-16 18:34:07,0.098s,PASSED
+verifyEqual,Chrome 60.0.3112.90,Verifying the Heading Make Appointment,2017-08-16 18:34:07,2017-08-16 18:34:07,0.012s,PASSED
+,,,,,,
+Test Cases/Webtable_Handling/WebTables_Handling_Example_1,Chrome 60.0.3112.90,,2017-08-16 18:34:07,2017-08-16 18:34:12,5.026s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + WebTable1_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:34:07,2017-08-16 18:34:07,0.003s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:34:07,2017-08-16 18:34:10,2.855s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,Maximize the window,2017-08-16 18:34:10,2017-08-16 18:34:11,0.942s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 60.0.3112.90,,2017-08-16 18:34:11,2017-08-16 18:34:11,0.001s,PASSED
+"Statement - ExpectedValue = ""Pay Talk""",Chrome 60.0.3112.90,Expected value from Table,2017-08-16 18:34:11,2017-08-16 18:34:11,0.001s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//table/tbody""))",Chrome 60.0.3112.90,To locate table,2017-08-16 18:34:11,2017-08-16 18:34:11,0.055s,PASSED
+"Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName(""tr""))",Chrome 60.0.3112.90,To locate rows of table it will Capture all the rows available in the table,2017-08-16 18:34:11,2017-08-16 18:34:11,0.052s,PASSED
+Statement - rows_count = rows_table.size(),Chrome 60.0.3112.90,To calculate no of rows In table,2017-08-16 18:34:11,2017-08-16 18:34:11,0.000s,PASSED
+"Statement - For ([row = 0, row < rows_count, (row++)])",Chrome 60.0.3112.90,Loop will execute for all the rows of the table,2017-08-16 18:34:11,2017-08-16 18:34:12,0.841s,PASSED
+,,,,,,
+Test Cases/Webtable_Handling/WebTables_Handling_Example_2,Chrome 60.0.3112.90,,2017-08-16 18:34:12,2017-08-16 18:34:18,6.181s,PASSED
+Statement - htmlDir = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + WebTable2_Html_Path,Chrome 60.0.3112.90,Storing the URL in a variable,2017-08-16 18:34:12,2017-08-16 18:34:12,0.000s,PASSED
+openBrowser,Chrome 60.0.3112.90,Launch a browser and Navigate to URL,2017-08-16 18:34:12,2017-08-16 18:34:17,4.368s,PASSED
+maximizeWindow,Chrome 60.0.3112.90,,2017-08-16 18:34:17,2017-08-16 18:34:17,0.927s,PASSED
+"Statement - ExpectedValue = ""2018""",Chrome 60.0.3112.90,Expected value from Table,2017-08-16 18:34:17,2017-08-16 18:34:17,0.000s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 60.0.3112.90,,2017-08-16 18:34:17,2017-08-16 18:34:17,0.000s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//table/tbody""))",Chrome 60.0.3112.90,To locate table,2017-08-16 18:34:17,2017-08-16 18:34:18,0.042s,PASSED
+"Statement - Rows = Table.findElements(org.openqa.selenium.By.tagName(""tr""))",Chrome 60.0.3112.90,To locate rows of table it will Capture all the rows available in the table ,2017-08-16 18:34:18,2017-08-16 18:34:18,0.044s,PASSED
+"Statement - println(""No. of rows: "" + Rows.size())",Chrome 60.0.3112.90,,2017-08-16 18:34:18,2017-08-16 18:34:18,0.000s,PASSED
+"Comment - ""Find a matching text in a table and performing action""",Chrome 60.0.3112.90,,2017-08-16 18:34:18,2017-08-16 18:34:18,0.000s,PASSED
+"Statement - For ([i = 0, i < Rows.size(), (i++)])",Chrome 60.0.3112.90,Loop will execute for all the rows of the table,2017-08-16 18:34:18,2017-08-16 18:34:18,0.674s,PASSED
+,,,,,,
+,Chrome 60.0.3112.90,,2017-08-16 18:34:19,1970-01-01 05:30:00,,INFO

@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2017-08-16 22:16:19,2017-08-16 22:16:20,1.113s,ERROR
+,,,,,,
+Test Cases/Record and Playback/Add Commands at Runtime Record,,,2017-08-16 22:16:20,2017-08-16 22:16:20,0.047s,ERROR
+,,,,,,
+Test Cases/Record and Playback/Add Synchronization Commands,,,2017-08-16 22:16:20,2017-08-16 22:16:20,0.009s,ERROR
+,,,,,,
+Test Cases/Record and Playback/Change Element Names,,,2017-08-16 22:16:20,2017-08-16 22:16:20,0.007s,ERROR
+,,,,,,
+Test Cases/Record and Playback/Handle Button and CheckBox,,,2017-08-16 22:16:20,2017-08-16 22:16:20,0.010s,ERROR
+,,,,,,
+Test Cases/Record and Playback/Handle Radio Button,,,2017-08-16 22:16:20,2017-08-16 22:16:20,0.011s,ERROR
+,,,,,,
+Test Cases/Record and Playback/Handle Text Box,,,2017-08-16 22:16:20,2017-08-16 22:16:20,0.006s,ERROR
+,,,,,,
+Test Cases/Record and Playback/Record and Play Back,,,2017-08-16 22:16:20,2017-08-16 22:16:20,0.017s,ERROR

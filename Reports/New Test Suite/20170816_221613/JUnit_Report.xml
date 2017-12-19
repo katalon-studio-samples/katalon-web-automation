@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="1" tests="0" failures="0" errors="7">
+   <testsuite name="New Test Suite" tests="0" failures="0" errors="7" time="1" timestamp="2017-08-16 22:16:19" hostname="Abhis - Abhis" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Abhis\\Katalon Studio\\Katalon Web Tutorial\\Reports\\New Test Suite\\20170816_221613"/>
+         <property name="logFiles" value="C:\\Users\\Abhis\\Katalon Studio\\Katalon Web Tutorial\\Reports\\New Test Suite\\20170816_221613\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Abhis - Abhis"/>
+         <property name="hostAddress" value="192.168.0.117"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.7.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Record and Playback/Add Commands at Runtime Record" classname="Test Cases/Record and Playback/Add Commands at Runtime Record" status="ERROR">
+         <error type="ERROR" message="Test Cases/Record and Playback/Add Commands at Runtime Record has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Add Commands at Runtime Record: Test Cases/Record and Playback/Add Commands at Runtime Record has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Add Commands at Runtime Record: Test Cases/Record and Playback/Add Commands at Runtime Record has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Add Synchronization Commands" classname="Test Cases/Record and Playback/Add Synchronization Commands" status="ERROR">
+         <error type="ERROR" message="Test Cases/Record and Playback/Add Synchronization Commands has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Add Synchronization Commands: Test Cases/Record and Playback/Add Synchronization Commands has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Add Synchronization Commands: Test Cases/Record and Playback/Add Synchronization Commands has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Change Element Names" classname="Test Cases/Record and Playback/Change Element Names" status="ERROR">
+         <error type="ERROR" message="Test Cases/Record and Playback/Change Element Names has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Change Element Names: Test Cases/Record and Playback/Change Element Names has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Change Element Names: Test Cases/Record and Playback/Change Element Names has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Handle Button and CheckBox" classname="Test Cases/Record and Playback/Handle Button and CheckBox" status="ERROR">
+         <error type="ERROR" message="Test Cases/Record and Playback/Handle Button and CheckBox has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Handle Button and CheckBox: Test Cases/Record and Playback/Handle Button and CheckBox has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Handle Button and CheckBox: Test Cases/Record and Playback/Handle Button and CheckBox has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Handle Radio Button" classname="Test Cases/Record and Playback/Handle Radio Button" status="ERROR">
+         <error type="ERROR" message="Test Cases/Record and Playback/Handle Radio Button has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Handle Radio Button: Test Cases/Record and Playback/Handle Radio Button has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Handle Radio Button: Test Cases/Record and Playback/Handle Radio Button has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Handle Text Box" classname="Test Cases/Record and Playback/Handle Text Box" status="ERROR">
+         <error type="ERROR" message="Test Cases/Record and Playback/Handle Text Box has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Handle Text Box: Test Cases/Record and Playback/Handle Text Box has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Handle Text Box: Test Cases/Record and Playback/Handle Text Box has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Record and Play Back" classname="Test Cases/Record and Playback/Record and Play Back" status="ERROR">
+         <error type="ERROR" message="Test Cases/Record and Playback/Record and Play Back has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Record and Play Back: Test Cases/Record and Playback/Record and Play Back has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2017-08-16 22:16:20 - [TEST_CASE][ERROR] - Test Cases/Record and Playback/Record and Play Back: Test Cases/Record and Playback/Record and Play Back has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-08-16 22:16:19 - [TEST_SUITE][ERROR] - New Test Suite: Test Cases/Record and Playback/Add Commands at Runtime Record has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-out>
+      <system-err><![CDATA[2017-08-16 22:16:19 - [TEST_SUITE][ERROR] - New Test Suite: Test Cases/Record and Playback/Add Commands at Runtime Record has ERROR(s) because (of) java.io.FileNotFoundException: File '' does not exist]]></system-err>
+   </testsuite>
+</testsuites>

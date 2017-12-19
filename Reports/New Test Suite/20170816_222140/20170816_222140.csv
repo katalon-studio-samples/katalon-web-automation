@@ -1,0 +1,87 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 60.0.3112.101,,2017-08-16 22:21:46,2017-08-16 22:27:34,5m - 47.823s,PASSED
+,,,,,,
+Test Cases/Record and Playback/Add Commands at Runtime Record,Chrome 60.0.3112.101,,2017-08-16 22:21:47,2017-08-16 22:22:53,1m - 5.843s,PASSED
+openBrowser,Chrome 60.0.3112.101,,2017-08-16 22:21:48,2017-08-16 22:22:00,12.232s,PASSED
+navigateToUrl,Chrome 60.0.3112.101,,2017-08-16 22:22:00,2017-08-16 22:22:24,23.774s,PASSED
+verifyElementPresent,Chrome 60.0.3112.101,,2017-08-16 22:22:24,2017-08-16 22:22:24,0.270s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:22:24,2017-08-16 22:22:36,11.738s,PASSED
+verifyElementPresent,Chrome 60.0.3112.101,,2017-08-16 22:22:36,2017-08-16 22:22:36,0.065s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:22:36,2017-08-16 22:22:51,15.463s,PASSED
+closeBrowser,Chrome 60.0.3112.101,,2017-08-16 22:22:51,2017-08-16 22:22:53,1.274s,PASSED
+,,,,,,
+Test Cases/Record and Playback/Add Synchronization Commands,Chrome 60.0.3112.101,,2017-08-16 22:22:53,2017-08-16 22:24:15,1m - 22.305s,PASSED
+openBrowser,Chrome 60.0.3112.101,,2017-08-16 22:22:53,2017-08-16 22:22:56,2.726s,PASSED
+navigateToUrl,Chrome 60.0.3112.101,,2017-08-16 22:22:56,2017-08-16 22:24:12,1m - 16.454s,PASSED
+verifyElementPresent,Chrome 60.0.3112.101,,2017-08-16 22:24:12,2017-08-16 22:24:12,0.077s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:24:12,2017-08-16 22:24:13,0.675s,PASSED
+verifyElementVisible,Chrome 60.0.3112.101,,2017-08-16 22:24:13,2017-08-16 22:24:13,0.174s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:24:13,2017-08-16 22:24:14,1.097s,PASSED
+closeBrowser,Chrome 60.0.3112.101,,2017-08-16 22:24:14,2017-08-16 22:24:15,0.664s,PASSED
+,,,,,,
+Test Cases/Record and Playback/Change Element Names,Chrome 60.0.3112.101,,2017-08-16 22:24:15,2017-08-16 22:24:48,33.282s,PASSED
+openBrowser,Chrome 60.0.3112.101,,2017-08-16 22:24:15,2017-08-16 22:24:18,2.875s,PASSED
+navigateToUrl,Chrome 60.0.3112.101,,2017-08-16 22:24:18,2017-08-16 22:24:45,26.269s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:24:45,2017-08-16 22:24:45,0.802s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:24:45,2017-08-16 22:24:48,2.293s,PASSED
+closeBrowser,Chrome 60.0.3112.101,,2017-08-16 22:24:48,2017-08-16 22:24:48,0.752s,PASSED
+,,,,,,
+Test Cases/Record and Playback/Handle Button and CheckBox,Chrome 60.0.3112.101,,2017-08-16 22:24:49,2017-08-16 22:25:13,24.938s,PASSED
+openBrowser,Chrome 60.0.3112.101,Invoking Browser,2017-08-16 22:24:49,2017-08-16 22:24:51,2.487s,PASSED
+navigateToUrl,Chrome 60.0.3112.101,Launch the url,2017-08-16 22:24:51,2017-08-16 22:25:05,13.994s,PASSED
+verifyElementClickable,Chrome 60.0.3112.101,verify the element is clickable or not,2017-08-16 22:25:05,2017-08-16 22:25:05,0.098s,PASSED
+click,Chrome 60.0.3112.101,Click on Make Appointment Button,2017-08-16 22:25:05,2017-08-16 22:25:07,1.489s,PASSED
+click,Chrome 60.0.3112.101,Click on Login Button,2017-08-16 22:25:07,2017-08-16 22:25:10,3.411s,PASSED
+selectOptionByValue,Chrome 60.0.3112.101,Select the Hongkong CURA Healthcare Center from dropdown,2017-08-16 22:25:10,2017-08-16 22:25:11,0.303s,PASSED
+check,Chrome 60.0.3112.101,check Hospital readmission check box,2017-08-16 22:25:11,2017-08-16 22:25:11,0.311s,PASSED
+verifyElementChecked,Chrome 60.0.3112.101,verify Hospital readmission check box is checked,2017-08-16 22:25:11,2017-08-16 22:25:11,0.086s,PASSED
+uncheck,Chrome 60.0.3112.101,un check Hospital readmission check box,2017-08-16 22:25:11,2017-08-16 22:25:11,0.127s,PASSED
+verifyElementNotChecked,Chrome 60.0.3112.101,Verify uncheck Hospital readmission check box,2017-08-16 22:25:11,2017-08-16 22:25:11,0.052s,PASSED
+click,Chrome 60.0.3112.101,click on Medicadi radio button,2017-08-16 22:25:11,2017-08-16 22:25:11,0.169s,PASSED
+click,Chrome 60.0.3112.101,Click on calendar icon,2017-08-16 22:25:11,2017-08-16 22:25:12,0.191s,PASSED
+click,Chrome 60.0.3112.101,CLick on Calendar date,2017-08-16 22:25:12,2017-08-16 22:25:12,0.198s,PASSED
+setText,Chrome 60.0.3112.101,Enter katalon text in comments box,2017-08-16 22:25:12,2017-08-16 22:25:12,0.416s,PASSED
+click,Chrome 60.0.3112.101,Click on Book Appointment,2017-08-16 22:25:12,2017-08-16 22:25:13,0.636s,PASSED
+closeBrowser,Chrome 60.0.3112.101,Close the Browser,2017-08-16 22:25:13,2017-08-16 22:25:13,0.649s,PASSED
+,,,,,,
+Test Cases/Record and Playback/Handle Radio Button,Chrome 60.0.3112.101,,2017-08-16 22:25:14,2017-08-16 22:25:52,38.789s,PASSED
+openBrowser,Chrome 60.0.3112.101,Invoking Browser,2017-08-16 22:25:14,2017-08-16 22:25:16,2.299s,PASSED
+navigateToUrl,Chrome 60.0.3112.101,Launch the url,2017-08-16 22:25:16,2017-08-16 22:25:35,18.463s,PASSED
+click,Chrome 60.0.3112.101,Click on Make Appointment Button,2017-08-16 22:25:35,2017-08-16 22:25:36,1.258s,PASSED
+click,Chrome 60.0.3112.101,Click on Login Button,2017-08-16 22:25:36,2017-08-16 22:25:37,1.237s,PASSED
+selectOptionByValue,Chrome 60.0.3112.101,Select the Hongkong CURA Healthcare Center from dropdown,2017-08-16 22:25:37,2017-08-16 22:25:37,0.240s,PASSED
+check,Chrome 60.0.3112.101,Check Hospital readmission check box,2017-08-16 22:25:37,2017-08-16 22:25:38,0.148s,PASSED
+check,Chrome 60.0.3112.101,Check on Medicadi radio button,2017-08-16 22:25:38,2017-08-16 22:25:38,0.156s,PASSED
+verifyElementChecked,Chrome 60.0.3112.101,Check the None Radio Button,2017-08-16 22:25:38,2017-08-16 22:25:38,0.030s,PASSED
+check,Chrome 60.0.3112.101,Check on Medicadi radio button,2017-08-16 22:25:38,2017-08-16 22:25:38,0.121s,PASSED
+verifyElementNotChecked,Chrome 60.0.3112.101,Verify unchecked status of Medicaid Radio button,2017-08-16 22:25:38,2017-08-16 22:25:38,0.029s,PASSED
+verifyElementChecked,Chrome 60.0.3112.101,Verify the checked status of the None Radio Button,2017-08-16 22:25:38,2017-08-16 22:25:38,0.026s,PASSED
+click,Chrome 60.0.3112.101,Click on calendar icon,2017-08-16 22:25:38,2017-08-16 22:25:38,0.126s,PASSED
+click,Chrome 60.0.3112.101,Click on Calendar date,2017-08-16 22:25:38,2017-08-16 22:25:38,0.133s,PASSED
+setText,Chrome 60.0.3112.101,Enter katalon text in comments box,2017-08-16 22:25:38,2017-08-16 22:25:38,0.196s,PASSED
+click,Chrome 60.0.3112.101,Click on Book Appointment,2017-08-16 22:25:38,2017-08-16 22:25:52,13.223s,PASSED
+closeBrowser,Chrome 60.0.3112.101,Close the Browser,2017-08-16 22:25:52,2017-08-16 22:25:52,0.753s,PASSED
+,,,,,,
+Test Cases/Record and Playback/Handle Text Box,Chrome 60.0.3112.101,,2017-08-16 22:25:52,2017-08-16 22:27:11,1m - 18.976s,PASSED
+openBrowser,Chrome 60.0.3112.101,Invoking the browser,2017-08-16 22:25:53,2017-08-16 22:25:56,2.829s,PASSED
+navigateToUrl,Chrome 60.0.3112.101,Passing the URL,2017-08-16 22:25:56,2017-08-16 22:26:38,42.519s,PASSED
+click,Chrome 60.0.3112.101,Click on the make Appointment Button,2017-08-16 22:26:38,2017-08-16 22:27:10,32.246s,PASSED
+"Statement - userName = ""katalon""",Chrome 60.0.3112.101,Decalre username variable and assign the value,2017-08-16 22:27:10,2017-08-16 22:27:10,0.000s,PASSED
+setText,Chrome 60.0.3112.101,Enter text to username field,2017-08-16 22:27:10,2017-08-16 22:27:11,0.314s,PASSED
+"Statement - input_Value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CURA Healthcare Service (1)/input_username), ""value"")",Chrome 60.0.3112.101,Get the attribute value of username text field,2017-08-16 22:27:11,2017-08-16 22:27:11,0.037s,PASSED
+verifyMatch,Chrome 60.0.3112.101,verify the entered text and attribute value,2017-08-16 22:27:11,2017-08-16 22:27:11,0.030s,PASSED
+closeBrowser,Chrome 60.0.3112.101,,2017-08-16 22:27:11,2017-08-16 22:27:11,0.688s,PASSED
+,,,,,,
+Test Cases/Record and Playback/Record and Play Back,Chrome 60.0.3112.101,,2017-08-16 22:27:11,2017-08-16 22:27:34,22.826s,PASSED
+openBrowser,Chrome 60.0.3112.101,,2017-08-16 22:27:12,2017-08-16 22:27:14,2.338s,PASSED
+navigateToUrl,Chrome 60.0.3112.101,,2017-08-16 22:27:14,2017-08-16 22:27:28,13.576s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:27:28,2017-08-16 22:27:29,0.880s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:27:29,2017-08-16 22:27:30,1.135s,PASSED
+selectOptionByValue,Chrome 60.0.3112.101,,2017-08-16 22:27:30,2017-08-16 22:27:30,0.316s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:27:30,2017-08-16 22:27:30,0.130s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:27:30,2017-08-16 22:27:30,0.137s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:27:30,2017-08-16 22:27:31,0.245s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:27:31,2017-08-16 22:27:31,0.266s,PASSED
+setText,Chrome 60.0.3112.101,,2017-08-16 22:27:31,2017-08-16 22:27:31,0.419s,PASSED
+click,Chrome 60.0.3112.101,,2017-08-16 22:27:31,2017-08-16 22:27:34,2.245s,PASSED
+closeBrowser,Chrome 60.0.3112.101,,2017-08-16 22:27:34,2017-08-16 22:27:34,0.707s,PASSED

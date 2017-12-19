@@ -1,0 +1,4 @@
+Usename,Password,Type of Input,Expected Result
+,,Valid,Make Appointment
+Test User,12354895,Invalid,Login failed! Please ensure the username and password are valid. 
+,,Blank,Login failed! Please ensure the username and password are valid. 

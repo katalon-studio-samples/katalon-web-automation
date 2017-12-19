@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="347" tests="7" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="7" failures="0" errors="0" time="347" timestamp="2017-08-16 22:21:46" hostname="Abhis - Abhis" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Abhis\\Katalon Studio\\Katalon Web Tutorial\\Reports\\New Test Suite\\20170816_222140"/>
+         <property name="logFiles" value="C:\\Users\\Abhis\\Katalon Studio\\Katalon Web Tutorial\\Reports\\New Test Suite\\20170816_222140\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Abhis - Abhis"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="4.7.1.1"/>
+         <property name="browser" value="Chrome 60.0.3112.101"/>
+         <property name="hostAddress" value="192.168.0.117"/>
+         <property name="sessionId" value="7e94c48d39899a588d23c20803244101"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/Record and Playback/Add Commands at Runtime Record" classname="Test Cases/Record and Playback/Add Commands at Runtime Record" status="PASSED">
+         <system-out><![CDATA[2017-08-16 22:21:47 - [TEST_CASE][PASSED] - Test Cases/Record and Playback/Add Commands at Runtime Record: Test Cases/Record and Playback/Add Commands at Runtime Record
+
+2017-08-16 22:21:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-16 22:22:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-16 22:22:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:22:24 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:22:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+2017-08-16 22:22:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+2017-08-16 22:22:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:22:36 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is present
+
+2017-08-16 22:22:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is present
+
+2017-08-16 22:22:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-16 22:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-16 22:22:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-16 22:22:53 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2017-08-16 22:22:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Add Synchronization Commands" classname="Test Cases/Record and Playback/Add Synchronization Commands" status="PASSED">
+         <system-out><![CDATA[2017-08-16 22:22:53 - [TEST_CASE][PASSED] - Test Cases/Record and Playback/Add Synchronization Commands: Test Cases/Record and Playback/Add Synchronization Commands
+
+2017-08-16 22:22:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-16 22:22:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-16 22:22:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:24:12 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:24:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+2017-08-16 22:24:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+2017-08-16 22:24:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:24:13 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is visible
+
+2017-08-16 22:24:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is visible
+
+2017-08-16 22:24:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-16 22:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-16 22:24:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-16 22:24:15 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2017-08-16 22:24:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Change Element Names" classname="Test Cases/Record and Playback/Change Element Names" status="PASSED">
+         <system-out><![CDATA[2017-08-16 22:24:15 - [TEST_CASE][PASSED] - Test Cases/Record and Playback/Change Element Names: Test Cases/Record and Playback/Change Element Names
+
+2017-08-16 22:24:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-16 22:24:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-16 22:24:18 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:24:45 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:24:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Home Page/button_Make Appointment' is clicked on
+
+2017-08-16 22:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home Page/button_Make Appointment' is clicked on
+
+2017-08-16 22:24:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2017-08-16 22:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/button_Login' is clicked on
+
+2017-08-16 22:24:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-16 22:24:48 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2017-08-16 22:24:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Handle Button and CheckBox" classname="Test Cases/Record and Playback/Handle Button and CheckBox" status="PASSED">
+         <system-out><![CDATA[2017-08-16 22:24:49 - [TEST_CASE][PASSED] - Test Cases/Record and Playback/Handle Button and CheckBox: Test Cases/Record and Playback/Handle Button and CheckBox
+
+2017-08-16 22:24:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-16 22:24:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-16 22:24:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:25:05 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:25:05 - [TEST_STEP][PASSED] - verifyElementClickable: Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+2017-08-16 22:25:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clickable
+
+2017-08-16 22:25:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:25:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-16 22:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-16 22:25:10 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (2)/select_facility'  using regular expression
+
+2017-08-16 22:25:11 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (2)/select_facility'  using regular expression
+
+2017-08-16 22:25:11 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is checked
+
+2017-08-16 22:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is checked
+
+2017-08-16 22:25:11 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is checked
+
+2017-08-16 22:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is checked
+
+2017-08-16 22:25:11 - [TEST_STEP][PASSED] - uncheck: Object 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is un-checked
+
+2017-08-16 22:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is un-checked
+
+2017-08-16 22:25:11 - [TEST_STEP][PASSED] - verifyElementNotChecked: Object 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is not checked
+
+2017-08-16 22:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is not checked
+
+2017-08-16 22:25:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/input_programs' is clicked on
+
+2017-08-16 22:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/input_programs' is clicked on
+
+2017-08-16 22:25:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/div_input-group-addon' is clicked on
+
+2017-08-16 22:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/div_input-group-addon' is clicked on
+
+2017-08-16 22:25:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/td_3' is clicked on
+
+2017-08-16 22:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/td_3' is clicked on
+
+2017-08-16 22:25:12 - [TEST_STEP][PASSED] - setText: Text 'Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service (2)/textarea_comment'
+
+2017-08-16 22:25:12 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service (2)/textarea_comment'
+
+2017-08-16 22:25:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/button_Book Appointment' is clicked on
+
+2017-08-16 22:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/button_Book Appointment' is clicked on
+
+2017-08-16 22:25:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-16 22:25:13 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2017-08-16 22:25:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Handle Radio Button" classname="Test Cases/Record and Playback/Handle Radio Button" status="PASSED">
+         <system-out><![CDATA[2017-08-16 22:25:14 - [TEST_CASE][PASSED] - Test Cases/Record and Playback/Handle Radio Button: Test Cases/Record and Playback/Handle Radio Button
+
+2017-08-16 22:25:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-16 22:25:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-16 22:25:16 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:25:35 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:25:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:25:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:25:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-16 22:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-16 22:25:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (2)/select_facility'  using regular expression
+
+2017-08-16 22:25:37 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (2)/select_facility'  using regular expression
+
+2017-08-16 22:25:37 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is checked
+
+2017-08-16 22:25:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is checked
+
+2017-08-16 22:25:38 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_CURA Healthcare Service (2)/input_Medicaid Radio' is checked
+
+2017-08-16 22:25:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (2)/input_Medicaid Radio' is checked
+
+2017-08-16 22:25:38 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/Page_CURA Healthcare Service (2)/input_Medicaid Radio' is checked
+
+2017-08-16 22:25:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (2)/input_Medicaid Radio' is checked
+
+2017-08-16 22:25:38 - [TEST_STEP][PASSED] - check: Object 'Object Repository/Page_CURA Healthcare Service (2)/input_None Radio' is checked
+
+2017-08-16 22:25:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (2)/input_None Radio' is checked
+
+2017-08-16 22:25:38 - [TEST_STEP][PASSED] - verifyElementNotChecked: Object 'Object Repository/Page_CURA Healthcare Service (2)/input_Medicaid Radio' is not checked
+
+2017-08-16 22:25:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (2)/input_Medicaid Radio' is not checked
+
+2017-08-16 22:25:38 - [TEST_STEP][PASSED] - verifyElementChecked: Object 'Object Repository/Page_CURA Healthcare Service (2)/input_None Radio' is checked
+
+2017-08-16 22:25:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service (2)/input_None Radio' is checked
+
+2017-08-16 22:25:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/div_input-group-addon' is clicked on
+
+2017-08-16 22:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/div_input-group-addon' is clicked on
+
+2017-08-16 22:25:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/td_3' is clicked on
+
+2017-08-16 22:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/td_3' is clicked on
+
+2017-08-16 22:25:38 - [TEST_STEP][PASSED] - setText: Text 'Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service (2)/textarea_comment'
+
+2017-08-16 22:25:38 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service (2)/textarea_comment'
+
+2017-08-16 22:25:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/button_Book Appointment' is clicked on
+
+2017-08-16 22:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/button_Book Appointment' is clicked on
+
+2017-08-16 22:25:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-16 22:25:52 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2017-08-16 22:25:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Handle Text Box" classname="Test Cases/Record and Playback/Handle Text Box" status="PASSED">
+         <system-out><![CDATA[2017-08-16 22:25:52 - [TEST_CASE][PASSED] - Test Cases/Record and Playback/Handle Text Box: Test Cases/Record and Playback/Handle Text Box
+
+2017-08-16 22:25:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-16 22:25:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-16 22:25:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:26:38 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:26:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:27:10 - [TEST_STEP][PASSED] - Statement - userName = "katalon": null
+
+2017-08-16 22:27:10 - [TEST_STEP][PASSED] - setText: Text 'katalon' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-08-16 22:27:11 - [MESSAGE][PASSED] - Text 'katalon' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2017-08-16 22:27:11 - [TEST_STEP][PASSED] - Statement - input_Value = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CURA Healthcare Service (1)/input_username), "value"): Attribute 'value' of object 'Object Repository/Page_CURA Healthcare Service (1)/input_username' is: 'katalon'
+
+2017-08-16 22:27:11 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_CURA Healthcare Service (1)/input_username' is: 'katalon'
+
+2017-08-16 22:27:11 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'katalon' and expected text 'katalon' are matched 
+
+2017-08-16 22:27:11 - [MESSAGE][PASSED] - Actual text 'katalon' and expected text 'katalon' are matched 
+
+2017-08-16 22:27:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-16 22:27:11 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2017-08-16 22:27:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Record and Playback/Record and Play Back" classname="Test Cases/Record and Playback/Record and Play Back" status="PASSED">
+         <system-out><![CDATA[2017-08-16 22:27:11 - [TEST_CASE][PASSED] - Test Cases/Record and Playback/Record and Play Back: Test Cases/Record and Playback/Record and Play Back
+
+2017-08-16 22:27:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-08-16 22:27:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-08-16 22:27:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:27:28 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2017-08-16 22:27:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:27:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2017-08-16 22:27:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-16 22:27:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2017-08-16 22:27:30 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (2)/select_facility'  using regular expression
+
+2017-08-16 22:27:30 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (2)/select_facility'  using regular expression
+
+2017-08-16 22:27:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is clicked on
+
+2017-08-16 22:27:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/input_hospital_readmission' is clicked on
+
+2017-08-16 22:27:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/input_programs' is clicked on
+
+2017-08-16 22:27:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/input_programs' is clicked on
+
+2017-08-16 22:27:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/div_input-group-addon' is clicked on
+
+2017-08-16 22:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/div_input-group-addon' is clicked on
+
+2017-08-16 22:27:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/td_3' is clicked on
+
+2017-08-16 22:27:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/td_3' is clicked on
+
+2017-08-16 22:27:31 - [TEST_STEP][PASSED] - setText: Text 'Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service (2)/textarea_comment'
+
+2017-08-16 22:27:31 - [MESSAGE][PASSED] - Text 'Katalon' is set on object 'Object Repository/Page_CURA Healthcare Service (2)/textarea_comment'
+
+2017-08-16 22:27:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (2)/button_Book Appointment' is clicked on
+
+2017-08-16 22:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (2)/button_Book Appointment' is clicked on
+
+2017-08-16 22:27:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-08-16 22:27:34 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2017-08-16 22:27:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-08-16 22:21:46 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Record and Playback/Record and Play Back]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
